@@ -1,0 +1,70 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(tims-logo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  font-size: 3em;
+  color: rgb(255, 146, 55, 1.0);
+}
+
+hr {
+    margin: 20px auto;
+    color: rgb(96, 132, 214);
+    border: 3px solid rgb(96, 132, 214);
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.buffer{
+  height: 10rem;
+}
+
+/* Styles pour centrer le texte */
+.centered-text {
+  position: absolute;
+  top: 50%; /* Position verticale au milieu de la page */
+  left: 50%; /* Position horizontale au milieu de la page */
+  transform: translate(-50%, -50%); /* Centrage en utilisant une transformation */
+  text-align: center; /* Pour centrer le texte horizontalement */
+}
+
+/* Exemple de style de texte */
+.centered-text p {
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(96, 132, 214, 1.0); /* Couleur du texte */
+}
+
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {  
+    background-color: rgb(96, 132, 214);  
+    border-color: rgb(96, 132, 214);  
+    --bs-btn-hover-bg: rgb(34, 77, 150); 
+    --bs-btn-hover-border-color: rgb(34, 77, 150);
+}
+
+.btn-primary:hover {
+  background-color: rgb(34, 77, 150);
+  border-color: rgb(34, 77, 150);
+  border-width: 4px;
+}
+
+.btn-xl{
+  padding: 1rem 2rem;
+}
+
+
+
